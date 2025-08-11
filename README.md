@@ -1,6 +1,6 @@
-# template-repository  
+# gotplrepo
 
-This repository serves as a standardized template for all future GitHub projects within the organization.  
+This repository serves as a standardized template for all future GitHub GO projects within the organization.  
 
 [![LICENSE](https://img.shields.io/badge/license-Apache_2.0-blue.svg)](https://choosealicense.com/licenses/apache-2.0/)
 
