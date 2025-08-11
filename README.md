@@ -23,9 +23,34 @@ This project template includes the following components:
 
 # Getting Started  
 
-## Create a Repository from This Template  
-To use this template, follow GitHub’s official guide:  [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)  
-
+## Create a repository from this template (e.g. `gomine`)
+- on `github.com` create `gomine` : an empty git repo without `README` and `.gitcore`
+- git clone the tpl repo: `gotplrepo` into `gomine`
+```shell
+git clone https://github.com/abtransitionit/gotplrepo.git gomine
+```
+- reset history and init repo
+```shell
+cd gomine
+rm -rf .git
+git init -b main  
+```
+- update `GO` path in the file `go.mod`
+```shell
+# do update
+go mod init github.com/abtransitionit/gomine
+# check updtae
+cat go.mod
+```
+- commit the code "initial setup from template"
+- update .git/config
+```shell
+git remote add origin https://github.com/abtransitionit/gomine.git
+```
+- push the code
+```shell
+git push -u origin main
+```
 ---
 
 # Contributing  
