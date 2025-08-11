@@ -23,7 +23,7 @@ This project template includes the following components:
 
 # Getting Started  
 
-## Create a repository from this template (e.g. `gomine`)
+## 1. Create a repository from this template (e.g. `gomine`)
 - on `github.com` create `gomine` : an empty git repo without `README` and `.gitcore`
 - git clone the tpl repo: `gotplrepo` into `gomine`
 ```shell
@@ -51,6 +51,12 @@ git remote add origin https://github.com/abtransitionit/gomine.git
 ```shell
 git push -u origin main
 ```
+
+## 2. Update the README
+- update `gotplrepo` to `gomine`
+- review each sections and update/add content when needed
+
+
 ---
 
 # Contributing  
